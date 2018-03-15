@@ -14,7 +14,6 @@ $.ajax({
      });
 }
 
-
 function showCountriesList(resp) {
     countriesList.empty();
     resp.forEach(function(item) {
